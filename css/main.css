@@ -238,22 +238,29 @@ footer p{
 /* Perfil */
 
 .perfil-main-container{
-    width: 100%;
-    min-height: 250px;
     background-color: #e6e9ed;
-
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 50px ;
+    padding: 70px 40px ;
+    margin-bottom: 50px;
 }
-.perfil-main-container .perfil-info-container{
-    width: 85%;
-    padding: 0 35px;
+.perfil-main-container .perfil-container{
+    display: flex;
 }
-
-
 .perfil-main-container img{
-    width: 100%;
-    /* margin: 35px; */
+    width: 320px;
+    margin-right: 20px;
 }
-
+.perfil-main-projects{
+    padding: 0 50px 40px;
+}
+.perfil-main-projects h3{
+    border-bottom: 1px solid #e3e6ea;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.perfil-projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.project-container{
+    padding: 0 10px;
+}
